@@ -48,7 +48,7 @@ class MainMenu extends Phaser.Scene {
         // Bibliografie Button
         let biblioButton = this.add.image(600, 500, 'biblioButton').setInteractive().setOrigin(0.5);
         biblioButton.on('pointerdown', () => {
-            window.location.href = '../bibliografie.html';  // or use window.open() for a new tab
+            window.location.href = import.meta.env.BASE_URL + 'bibliografie.html';  // or use window.open() for a new tab
         });
 
         this.dialogueText = this.add.text(600, 500, 'Bibliografie', { 
