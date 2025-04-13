@@ -1,3 +1,6 @@
+import Phaser from 'phaser';
+
+
 import BattleScene from "./scenes/battleScene.js";
 
 import TutorialScene from "./scenes/tutorialScene.js";
