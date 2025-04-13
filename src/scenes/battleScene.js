@@ -26,44 +26,44 @@ class BattleScene extends Phaser.Scene {
     preload()
     {
         
-        this.load.image('arena', '../../public/assets/arena2.png');        
+        this.load.image('arena', 'assets/arena2.png');        
         
 
         this.load.spritesheet('player',
-        '../../public/assets/PlayerAnims.png',
+        'assets/PlayerAnims.png',
         {frameWidth: 42 , frameHeight: 42  }
         );
 
         this.load.spritesheet('opp',
-            '../../public/assets/opp.png',
+            'assets/opp.png',
             {frameWidth: 42, frameHeight: 42 }
         );
 
         this.load.spritesheet('opp-green',
-            '../../public/assets/opp-green.png',
+            'assets/opp-green.png',
             {frameWidth: 42, frameHeight: 42 }
         );
 
         this.load.spritesheet('opp-blue',
-            '../../public/assets/opp-blue.png',
+            'assets/opp-blue.png',
             {frameWidth: 42, frameHeight: 42 }
         );
 
         this.load.spritesheet('opp-grey',
-            '../../public/assets/opp-grey.png',
+            'assets/opp-grey.png',
             {frameWidth: 42, frameHeight: 42 }
         );
 
         this.load.spritesheet('opp-orange',
-            '../../public/assets/opp-orange.png',
+            'assets/opp-orange.png',
             {frameWidth: 42, frameHeight: 42 }
         );
 
         
 
-        this.load.image('ui-heart-empty', '../../public/assets/heartEmpty.png');
-        this.load.image('ui-heart-full', '../../public/assets/heartFull.png');
-        this.load.image('ui-heart-half', '../../public/assets/heartHalf.png');
+        this.load.image('ui-heart-empty', 'assets/heartEmpty.png');
+        this.load.image('ui-heart-full', 'assets/heartFull.png');
+        this.load.image('ui-heart-half', 'assets/heartHalf.png');
 
         console.log("k");
     }

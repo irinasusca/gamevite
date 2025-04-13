@@ -20,14 +20,14 @@ class FinalBattleScene extends BattleScene
     preload()
     {
         super.preload();
-        this.load.image('tip', '../../public/assets/tip.png');
-        this.load.image('tipBox', '../../public/assets/tipBox.png');
-        this.load.image('bgFinalBattle', '../../public/assets/ShiroyamaBattle.jpg');
+        this.load.image('tip', 'assets/tip.png');
+        this.load.image('tipBox', 'assets/tipBox.png');
+        this.load.image('bgFinalBattle', 'assets/ShiroyamaBattle.jpg');
         this.load.spritesheet('buttons',
-            '../../public/assets/buttonUI.png',
+            'assets/buttonUI.png',
             {frameWidth: 16, frameHeight: 16 }
         );
-        //this.load.audio('music_battle', '../../public/assets/audio/warmusic.mp3');
+        //this.load.audio('music_battle', 'assets/audio/warmusic.mp3');
     }
 
     create()

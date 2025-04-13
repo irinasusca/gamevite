@@ -20,11 +20,11 @@ class TutorialScene extends BattleScene
     preload()
     {
         super.preload();
-        this.load.image('tip', '../../public/assets/tip.png');
-        this.load.image('tipBox', '../../public/assets/tipBox.png');
-        this.load.image('bg', '../../public/assets/meijiRain.jpg');
+        this.load.image('tip', 'assets/tip.png');
+        this.load.image('tipBox', 'assets/tipBox.png');
+        this.load.image('bg', 'assets/meijiRain.jpg');
         this.load.spritesheet('buttons',
-            '../../public/assets/buttonUI.png',
+            'assets/buttonUI.png',
             {frameWidth: 16, frameHeight: 16 }
         );
     }

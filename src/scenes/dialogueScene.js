@@ -23,31 +23,31 @@ class DialogueScene extends Phaser.Scene {
     preload()
     {
 
-        this.load.image('samurai', '../../public/assets/samurai_determined.png');
-        this.load.image('evil_samurai','../../public/assets/evilsamurai.png' );
-        this.load.image('woman','../../public/assets/woman.png' );
-        this.load.image('diplomat','../../public/assets/diplomat.png' );
-        this.load.image('general','../../public/assets/diplomat.png' );
+        this.load.image('samurai', 'assets/samurai_determined.png');
+        this.load.image('evil_samurai','assets/evilsamurai.png' );
+        this.load.image('woman','assets/woman.png' );
+        this.load.image('diplomat','assets/diplomat.png' );
+        this.load.image('general','assets/diplomat.png' );
 
         
-        this.load.image('rain_bg', '../../public/assets/rain.png');
-        this.load.image('councilroom', '../../public/assets/meijiDebate.png');
-        this.load.image('rebellion', '../../public/assets/revolta.png');
-        this.load.image('inside_house', '../../public/assets/interior.jpg');
-        this.load.image('garden', '../../public/assets/gradina.jpg');
-        this.load.image('councilroom_kagoshima', '../../public/assets/council.png');
-        this.load.image('war_prep', '../../public/assets/PregatireRazboi.jpg');
-        this.load.image('night', '../../public/assets/noapte.jpg');
-        this.load.image('shiroyama', '../../public/assets/ShiroyamaBattle.jpg');
+        this.load.image('rain_bg', 'assets/rain.png');
+        this.load.image('councilroom', 'assets/meijiDebate.png');
+        this.load.image('rebellion', 'assets/revolta.png');
+        this.load.image('inside_house', 'assets/interior.jpg');
+        this.load.image('garden', 'assets/gradina.jpg');
+        this.load.image('councilroom_kagoshima', 'assets/council.png');
+        this.load.image('war_prep', 'assets/PregatireRazboi.jpg');
+        this.load.image('night', 'assets/noapte.jpg');
+        this.load.image('shiroyama', 'assets/ShiroyamaBattle.jpg');
 
         
-        this.load.image('dialogueBox', '../../public/assets/dialogue.png');
+        this.load.image('dialogueBox', 'assets/dialogue.png');
 
-        this.load.image('cutscene1', '../../public/assets/cutscene1.jpg');
-        this.load.image('cutscene2', '../../public/assets/cutscene2.PNG');
+        this.load.image('cutscene1', 'assets/cutscene1.jpg');
+        this.load.image('cutscene2', 'assets/cutscene2.PNG');
 
-        this.load.image('statue', '../../public/assets/statue.png');
-        this.load.image('edoArt', '../../public/assets/castleEdo.jpg')
+        this.load.image('statue', 'assets/statue.png');
+        this.load.image('edoArt', 'assets/castleEdo.jpg')
 
         this.add.text(0, 0, "", { fontFamily: "'IM Fell English SC', serif" }).setVisible(false);
     }

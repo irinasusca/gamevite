@@ -7,17 +7,17 @@ class MainMenu extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('playButton', '../../public/assets/dialogue.png');  // Replace with your button images
-        this.load.image('biblioButton', '../../public/assets/dialogue.png');
-        this.load.image('textBoxy', '../../public/assets/dialogue.png');
-        this.load.image('bgMain', '../../public/assets/statuePainting.jpg');
-        this.load.audio('music_default', '../../public/assets/audio/tradJap.mp3');
-        this.load.audio('music_battle', '../../public/assets/audio/warmusic.mp3');
-        this.load.audio('woosh', '../../public/assets/audio/woosh.wav');
-        this.load.audio('clash', '../../public/assets/audio/clash.wav');
-        this.load.audio('gravel', '../../public/assets/audio/gravel.wav');
-        this.load.audio('dialogueClick', '../../public/assets/audio/poate3.wav');
-        this.load.audio('harakiri', '../../public/assets/audio/sword_slash.mp3');
+        this.load.image('playButton', 'assets/dialogue.png');  // Replace with your button images
+        this.load.image('biblioButton', 'assets/dialogue.png');
+        this.load.image('textBoxy', 'assets/dialogue.png');
+        this.load.image('bgMain', 'assets/statuePainting.jpg');
+        this.load.audio('music_default', 'assets/audio/tradJap.mp3');
+        this.load.audio('music_battle', 'assets/audio/warmusic.mp3');
+        this.load.audio('woosh', 'assets/audio/woosh.wav');
+        this.load.audio('clash', 'assets/audio/clash.wav');
+        this.load.audio('gravel', 'assets/audio/gravel.wav');
+        this.load.audio('dialogueClick', 'assets/audio/poate3.wav');
+        this.load.audio('harakiri', 'assets/audio/sword_slash.mp3');
     }
 
     create() {
