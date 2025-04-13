@@ -20,7 +20,7 @@ class DialogueScene0 extends Phaser.Scene {
             { speaker: "", side: "",  text: "Deschiderea recentă a Japoniei către influențele occidentale, inițiată de shogunat, a dus la o criză economică." },
             { speaker: "", side: "",  text: "Această situație a stârnit nemulțumirea mai multor nobili și tineri samurai, care au format o alianță împotriva shogunului." },
             { speaker: "", side: "",  text: "Au preluat controlul curții imperiale și l-au convins pe împăratul Meiji să își revendice autoritatea." },
-            { speaker: "", side: "",  text: "În cele din urmă, shogunul Yoshinobu a proclamat ca va renunța la putere, sperând că va putea face parte din noul guvern." },
+            { speaker: "", side: "",  text: "În cele din urmă, shogunul Yoshinobu a proclamat că va renunța la putere, sperând că va putea face parte din noul guvern." },
             { speaker: "", side: "",  text: "Dar Saigō Takamori, un tânăr samurai, nu a fost convins de sinceritatea resemnării sale." },
 
         ];
