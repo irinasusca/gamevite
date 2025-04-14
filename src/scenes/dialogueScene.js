@@ -43,7 +43,7 @@ class DialogueScene extends Phaser.Scene {
         
         this.load.image('dialogueBox', 'assets/dialogue.png');
 
-        this.load.image('cutscene1', 'assets/cutscene1.jpg');
+        this.load.image('cutscene1', 'assets/cutscene1.PNG');
         this.load.image('cutscene2', 'assets/cutscene2.PNG');
 
         this.load.image('statue', 'assets/statue.png');
