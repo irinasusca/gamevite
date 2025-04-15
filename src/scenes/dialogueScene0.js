@@ -14,6 +14,8 @@ class DialogueScene0 extends Phaser.Scene {
         this.music.setLoop(true);
         this.music.play();
 
+        this.scene.run('fan-ui');
+
         let dialogueData = [
 
             { speaker: "", side: "",  text: "Până în anul 1868, Japonia fusese condusă timp de secole de shogunat, cu shogunul ca lider suprem, în timp ce împăratul avea doar un rol simbolic." },

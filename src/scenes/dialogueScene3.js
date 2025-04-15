@@ -10,6 +10,7 @@ class DialogueScene3 extends Phaser.Scene {
     create() {
 
         this.scene.stop('game-ui');
+        this.scene.run('fan-ui');
         
         this.sound.stopAll();
         this.music = this.sound.add('music_default', {volume: 0.4});

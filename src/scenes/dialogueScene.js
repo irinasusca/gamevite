@@ -55,7 +55,9 @@ class DialogueScene extends Phaser.Scene {
     create()
     {
 
-        
+        this.game.events.on('switch-scene', (sceneKey) => {
+            this.scene.start(sceneKey);
+        }, this);
 
         this.cursors = this.input.keyboard.createCursorKeys();
         this.pointer = this.input.activePointer;
@@ -78,6 +80,9 @@ class DialogueScene extends Phaser.Scene {
             fontStyle: 'bold',
             color: '#ffffff'
         }).setOrigin(0.5).setDepth(201);
+
+        
+        this.scene.bringToTop('fan-ui');
 
         this.dialogueBox = this.add.image(600, 700, 'dialogueBox').setOrigin(0.5,0.5).setDepth(100).setScale(1.1);
         this.dialogueText = this.add.text(600, 720, '', { 

@@ -7,6 +7,7 @@ import TutorialScene from "./scenes/tutorialScene.js";
 import FinalBattleScene from "./scenes/finalBattleScene.js";
 
 import BattleSceneUI from "./scenes/battleSceneUI.js";
+import fanUI from './scenes/fanUI.js';
 
 import DialogueScene13 from "./scenes/dialogueScene13.js";
 import DialogueScene12 from "./scenes/dialogueScene12.js";
@@ -45,7 +46,7 @@ let config = {
             debug: false
         }
     },
-    scene: [MainMenu,  DialogueScene1,FinalBattleScene,  DialogueScene9, DialogueScene7, DialogueScene8,   DialogueScene6, DialogueScene3, TutorialScene,    BattleSceneUI, DialogueScene, BattleScene, DialogueScene0, DialogueScene2, DialogueScene4, DialogueScene5, DialogueScene10, DialogueScene11, DialogueScene12, DialogueScene13],
+    scene: [MainMenu,  DialogueScene1,FinalBattleScene,  DialogueScene9, DialogueScene7, DialogueScene8,   DialogueScene6, DialogueScene3, TutorialScene,  fanUI,  BattleSceneUI, DialogueScene, BattleScene, DialogueScene0, DialogueScene2, DialogueScene4, DialogueScene5, DialogueScene10, DialogueScene11, DialogueScene12, DialogueScene13],
 };
 
 //create new game <- config

@@ -74,6 +74,7 @@ class BattleScene extends Phaser.Scene {
         
 
         this.scene.run('game-ui');
+        this.scene.stop('fan-ui');
         this.cursors = this.input.keyboard.createCursorKeys();
         this.pointer = this.input.activePointer;
 

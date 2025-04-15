@@ -9,7 +9,7 @@ class DialogueScene6 extends Phaser.Scene {
 
     create() {
 
-        
+        this.scene.run('fan-ui');
         
         let dialogueData = [
             { speaker: "samurai", side: "left",  text: "Presupun că toată lumea a aflat deja ce a făcut guvernul imperial." },

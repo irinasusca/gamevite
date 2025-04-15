@@ -18,11 +18,14 @@ class MainMenu extends Phaser.Scene {
         this.load.audio('gravel', 'assets/audio/gravel.wav');
         this.load.audio('dialogueClick', 'assets/audio/poate3.wav');
         this.load.audio('harakiri', 'assets/audio/sword_slash.mp3');
+        this.load.audio('fan-open', 'assets/audio/fanOpen.mp3');
     }
 
     create() {
-
+        this.sound.stopAll();
         this.scene.stop('game-ui');
+        this.scene.stop('fan-ui');
+       
         
         let bg = this.add.image(0, 0, 'bgMain')
                 .setDepth(100)

@@ -9,7 +9,7 @@ class DialogueScene11 extends Phaser.Scene {
 
     create() {
 
-        
+        this.scene.run('fan-ui');
         
         
         let dialogueData = [
