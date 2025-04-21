@@ -39,6 +39,7 @@ class DialogueScene extends Phaser.Scene {
         this.load.image('war_prep', 'assets/PregatireRazboi.jpg');
         this.load.image('night', 'assets/noapte.jpg');
         this.load.image('shiroyama', 'assets/ShiroyamaBattle.jpg');
+        this.load.image('emperor', 'assets/empmeiji.jpg');
 
         
         this.load.image('dialogueBox', 'assets/dialogue.png');
@@ -161,7 +162,7 @@ class DialogueScene extends Phaser.Scene {
 
 
         ///daca nu vrem sa apara in stanga din prima eliminam
-        if(!(this.sceneKey === 'DialogueScene13' || this.sceneKey === 'FinalBattleScene' || this.sceneKey === 'DialogueScene12' || this.sceneKey === 'DialogueScene1' || this.sceneKey === 'MainMenu'))
+        if(!(this.sceneKey === 'DialogueScene13' || this.sceneKey === 'FinalBattleScene' || this.sceneKey === 'DialogueScene14' ||this.sceneKey === 'DialogueScene12' || this.sceneKey === 'DialogueScene1' || this.sceneKey === 'MainMenu'))
             this.leftCharacter.setTexture('samurai').setVisible(true);
 
 

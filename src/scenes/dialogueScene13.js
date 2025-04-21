@@ -15,7 +15,7 @@ class DialogueScene13 extends Phaser.Scene {
         
         let dialogueData = [
             
-
+            ///Informatii idespre noile reforme din Japonia, constitutia, monarhie
             { speaker: "", side: "",  text: "La treizeci de ani după moartea sa, Saigō Takamori a fost onorat cu o statuie." },
             { speaker: "", side: "",  text: "Deși guvernul l-a considerat un trădător, poporul Japoniei l-a recunoscut pentru cine era cu adevărat:" },
             { speaker: "", side: "",  text: "Un erou." },
@@ -25,13 +25,12 @@ class DialogueScene13 extends Phaser.Scene {
             { speaker: "", side: "",  text: "Ultimul samurai, prins între trecut și viitor." },
             { speaker: "", side: "",  text: "Saigō Takamori (1828 – 1877)" },
             { speaker: "", side: "",  text: "Onoarea lui trăiește în istorie." },
-
             
         ];
 
         let actTitle = "Moștenirea lui Saigō Takamori";
 
-        this.scene.start('DialogueScene', { dialogue: dialogueData, background: 'statue', nextScene:'MainMenu', actTitle: actTitle });
+        this.scene.start('DialogueScene', { dialogue: dialogueData, background: 'statue', nextScene:'DialogueScene14', actTitle: actTitle });
 
 
     }
