@@ -186,10 +186,10 @@ class DialogueScene extends Phaser.Scene {
             
             if (speaker === 'samurai')
                 this.speakerText.setColor('#8B0000'); // Dark red
-            this.speakerText.setX(300); // Left side
+            this.speakerText.setX(280); // Left side
             this.speakerText.setOrigin(0, 0.5);
 
-            this.dialogueText.setX(300);
+            this.dialogueText.setX(280);
             this.dialogueText.setOrigin(0, 0.5);
             this.dialogueText.setAlign('left');
 
@@ -197,10 +197,10 @@ class DialogueScene extends Phaser.Scene {
             
         } else if(side === 'right' || side === 'right_hidden') {
              // Default black
-            this.speakerText.setX(920); // Right side (assuming 1200 width)
+            this.speakerText.setX(940); // Right side (assuming 1200 width)
             this.speakerText.setOrigin(1, 0.5);
 
-            this.dialogueText.setX(920);
+            this.dialogueText.setX(940);
             this.dialogueText.setOrigin(1, 0.5);
             this.dialogueText.setAlign('right');
         }
